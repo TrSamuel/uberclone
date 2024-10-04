@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sec-top {
+    width: 100%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.sec-top>header>nav {
+    padding-top: 0.3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sec-top>header>nav>ul>li {
+    display: inline;
+    padding-inline: 1em;
+}
+
+.sec-top>header>nav>ul>li>a {
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.sec-top>header>nav>ul>li>a#sign-up{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    width: 100px;
+    border-radius: 20px;
+    transition-duration: 200ms;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 12px;
+}
+
+.sec-top>header>nav>ul.first-part {
+    /* background-color: red; */
+    margin-right: 13em;
+}
+
+.sec-top>header>nav>ul.second-part {
+    /* background-color: rgb(0, 255, 38); */
+    margin-left: 13em;
+}
+
+.sec-top>.go-anywhere {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4em;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form {
+    margin-top: 8em;
+    margin-left: 8em;
+    display: block;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>h1 {
+    font-size: 40pt;
+    font-weight: 700;
+    width: 90%;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>h1,
+p {
+    color: hsl(0, 0%, 100%);
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>p,
+input,
+button {
+    display: block;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>.form-group {
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 100%);
+    width: 24em;
+    height: 2.8em;
+    border: none;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>.form-group input {
+    border: none;
+    font-size: 12pt;
+    outline: none;
+    width: 20em;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>.form-group>#first {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>.form-group>#second {
+    height: 100%;
+    display: flex;
+    margin-right: 1em;
+    align-items: center;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>#f1>#first>span{
+    border: 3px solid hsl(0, 0%, 0%);
+    border-radius: 100%;
+    width: 0.15em;
+    height: 0.15em;
+    margin-right: 0.5em;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>#f1>#second>span>i{
+    font-size: 18pt;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>#f2>#first>span{
+    border: 3px solid hsl(0, 0%, 0%);
+    width: 0.15em;
+    height: 0.15em;
+    margin-right: 0.5em;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>.form-group>input {
+    height: 80%;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-form>button{
+    padding: 8px;
+    font-size: 17px;
+    width: 7em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sec-top>.go-anywhere>.go-anywhere-img {
+    margin-right: 8em;
+}
+
+
+.sec-top>.go-anywhere>.go-anywhere-img>img {
+    height: 40em;
+}
